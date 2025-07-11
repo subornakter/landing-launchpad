@@ -1,6 +1,7 @@
 .body{
     padding: 0;
     margin: 0;
+    background-color: #d2d4fa;
 }
 
 .raleway-normal {
@@ -84,6 +85,7 @@
       padding: 40px 20px;
       max-width: 1000px;
       margin: 50px auto;
+      border-radius: 10px;
 }
 .feature-title2{
     font-size: 30px;
@@ -102,6 +104,7 @@
     font-size: 45px;
     color: #4E47FF;
     margin: 0;
+    
 }
 .followers-text{
     color: #757575;
@@ -113,6 +116,7 @@
   max-width: 1140px;
   margin: 50px auto;
   padding: 40px 20px;
+  margin-top: 20px;
 }
 
 .feedback-wrapper {
@@ -121,7 +125,10 @@
   padding: 50px;
  
 }
-
+.review-title{
+    text-align: center;
+    font-size: 30px;
+}
 .feedback-container {
   
   padding: 30px;
@@ -167,4 +174,23 @@
   color: #979696 ;
   padding: 0;
   margin-top: 0;
+}
+.extra-section{
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+    background-color: #FFFFFF;
+    
+     padding: 40px 20px;
+      max-width: 1000px;
+      margin: 50px auto;
+    height: 500px;
+}
+.extra-description{
+    color: #757575;
+}
+.extra-img{
+    border-radius: 48px;
+    margin-top: 20px;
 }

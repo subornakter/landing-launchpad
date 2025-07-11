@@ -108,3 +108,63 @@
     font-size: 16px;
     margin-top: 0 ;
 }
+
+.review-section {
+  max-width: 1140px;
+  margin: 50px auto;
+  padding: 40px 20px;
+}
+
+.feedback-wrapper {
+  display: flex;
+  gap: 24px;
+  padding: 50px;
+ 
+}
+
+.feedback-container {
+  
+  padding: 30px;
+  border-radius: 5px;
+  width: 300px;
+  box-shadow: 0 4px 40px rgba(0,0,0,0.06);
+}
+.review-container{
+    display: flex;
+     align-items: center;
+     gap: 10px;
+  margin-top: 10px;
+}
+
+.feedback-title {
+  margin: 10px 0 5px;
+}
+
+.feedback-description {
+  font-size: 14px;
+  color: #262626;
+}
+
+.review-img{
+    width: 50px;
+    height: 60px;
+    border-radius: 50%;
+}
+.review-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.review-container p {
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+}
+
+.date-section {
+  
+  color: #979696 ;
+  padding: 0;
+  margin-top: 0;
+}

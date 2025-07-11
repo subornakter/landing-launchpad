@@ -1,12 +1,14 @@
-.body{
-    padding: 0;
-    margin: 0;
-    background-color: #d2d4fa;
+*{
+    box-sizing: border-box;
+}
+main{
+    background-color: #f0f1fd;
 }
 
 .raleway-normal {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
+  font-weight: 400;
   font-style: normal;
 }
 .header{
@@ -23,6 +25,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 30px 100px;
+    margin: 0 100px;
    
 }
 .nav-title{
@@ -37,7 +40,7 @@
     font-weight:bold ;
     padding: 10px 25px;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: 20px;
     border: none;
 }
@@ -54,17 +57,21 @@
 }
 .features{
     display: flex;
-    max-width: 1000px;
+    justify-content: space-between;
+    max-width: 1140px;
     height: 260px;
     gap: 120px;
     text-align: left;
-    margin:0px 200px;
-    margin-top: 80px;
+    margin:0px auto;
+    padding: 4px 60px;
+    border-radius: 48px;
+    padding-top: 50px;
 }
 .feature-item{
     text-align: left;
     align-items: start;
     padding: 0px;
+    font-size: 20px;
 }
 .feature-title{
     font-weight: bold;
@@ -77,15 +84,17 @@
     width: 350px;
     height: 260px;
     border-radius: 40px;
+    position: right;
 }
 .feature-2{
     text-align: center;
     align-items: center;
     background-color: #e8eaff;
       padding: 40px 20px;
-      max-width: 1000px;
+      max-width: 980px;
       margin: 50px auto;
       border-radius: 10px;
+      margin-top: 120px;
 }
 .feature-title2{
     font-size: 30px;
@@ -101,9 +110,10 @@
     
 }
 .followers-number{
-    font-size: 45px;
+    font-size: 60px;
     color: #4E47FF;
     margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
 .followers-text{
@@ -127,7 +137,7 @@
 }
 .review-title{
     text-align: center;
-    font-size: 30px;
+    font-size: 35px;
 }
 .feedback-container {
   
@@ -140,7 +150,7 @@
     display: flex;
      align-items: center;
      gap: 10px;
-  margin-top: 10px;
+    margin-top: 10px;
 }
 
 .feedback-title {
@@ -182,17 +192,22 @@
     margin-top: 50px;
     background-color: #FFFFFF;
     
-     padding: 40px 20px;
+     padding: 20px 20px;
       max-width: 1000px;
       margin: 50px auto;
-    height: 500px;
+      height: 620px;
+}
+.extra-section h1{
+    font-size: 50px;
 }
 .extra-description{
     color: #757575;
+    padding-top: 0;
 }
 .extra-img{
     border-radius: 48px;
     margin-top: 20px;
+    height: 50%;
 }
 .form-section{
     margin-top: 100px;
@@ -224,7 +239,9 @@ textarea{
     border-radius:5px ;
     font-family: inherit;
     border: 1px solid #e2dfdf;
-    padding:10px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    
 }
 .form-fill-up{
     text-align: left;
@@ -233,3 +250,62 @@ textarea{
     font-family: bolder;
     font-size: 20px;
 }
+.btn-primary2{
+    background-color: #4E47FF;
+    color: white;
+    font-weight:bold ;
+    padding: 10px 25px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+    width: 400px;
+}
+ button:hover {
+      background-color: #a50bd4;
+      transform: scale(1.05);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+.footer{
+    text-align: center;
+    padding: 50px;
+    border-top: 2px solid #e6e4e4;
+    margin-top: 0;
+}
+.logo-head{
+    font-weight: bolder;
+    font-size: 80px;
+    color:#4E47FF;
+}
+.footer p{
+    justify-content: left;
+    font-size: 20px;
+    color:#757575;
+    padding: 0;
+}
+.navber{
+    display: flex;
+    justify-content: center;
+    gap:5px;
+    margin-top:10px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+  
+}  
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav ul li a{
+    color:#757575;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+nav a:hover{
+    color:#2019f9;
+}
+
+
